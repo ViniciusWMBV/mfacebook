@@ -1,0 +1,168 @@
+/* Estilo geral */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0 auto;
+}
+
+form {
+	font-family: Roboto, 'Droid Sans', Helvetica, sans-serif;
+	font-size: 14px;
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #fff;
+}
+
+input[type="text"], input[type="password"] {
+    width: 95%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 3px;
+	border: 1px solid #cccccc9a;
+}
+
+button[type="submit"] {
+	font-size: 15px;
+	width: 102%;
+	padding: 12px;
+	background-color: #1877f2;
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	
+	cursor: pointer;
+}
+
+button[type="submit"]:hover {
+	background-color: #1877f2;
+}
+
+.logo{
+	margin-top: -10px;
+    margin-left: 36%;
+    width: 112px;
+    height: auto;
+}
+
+.recuperacaodesenha{
+	display: grid;
+	place-items: center;
+	text-align: center;
+    color: #2e71d9;
+    font-size: 13px;
+}
+
+.ou{
+	display: grid;
+	place-items: center;
+}
+
+.iconcel{
+	margin-left: 15px;
+	margin-top: 25px;
+	display: block;
+	position: absolute;
+	width:16px;
+}
+
+
+/* Responsividade para mobile */
+@media (max-width: 480px) {
+	form {
+		padding: 20px;
+	}
+
+	input[type="text"], input[type="password"] {
+		background-color: #f5f6f7;
+		padding: 12px;
+	}
+
+	button[type="text"] {
+		padding: 12px;
+	}
+}
+
+.app{
+	margin-left: 40px;
+	color: #3b5998;
+	font-size: 14px;
+    line-height: 18px;
+}
+
+.fundoapp{
+	margin-top: -15px;
+	background-color: #fffbe2;
+	height: 70px;
+}
+
+.cconta{
+	background: white;
+    border-color: #bec3c9;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: none;
+    color: #000;
+    display: inline-block;
+    flex: none;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -0.23px;
+    text-align: center;
+    text-shadow: none;
+    white-space: nowrap;
+    width: 80%;
+	padding: 4px 8px 3px;
+	height: 35px;
+	margin-left: 10%;
+}
+.linguagens{
+	display: grid;
+	place-items: center;
+	font-family: Helvetica, Arial, sans-serif;
+	color:#576b95;
+	margin-top: 60px;
+	font-size: 12px;
+    line-height: 18px;
+}
+
+.ling1{
+	display: flex;
+	text-align: center;
+}
+
+.ling2{
+	margin-left: 70px;
+}
+.mling{
+	margin-left: 175px;
+	margin-top: -15px;
+	text-align: center;
+    border: 1px solid #3b5998;
+    border-radius: 3px;
+    color: #808080;
+    font-size: large;
+    height: 18px;
+    line-height: 17px;
+    margin-right: 1px;
+    text-align: center;
+    width: 18px;
+}
+
+.direitosautorais{
+	display: grid;
+	place-items: center;
+	font-size: 12px;
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: center;
+	color:#8a8d91;
+}
+.sobre{
+	text-decoration: none;
+	display: grid;
+	place-items: center;
+	font-size: 10px;
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: center;
+	color:#8a8d91;
+}
