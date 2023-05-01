@@ -16,7 +16,7 @@
     </div>
     <form action="" method="post">
         <img class="logo" src="logo.svg">
-		<input type="text" name="email_telefone" id="email_telefone" placeholder="Número de celular ou email" required/>
+		<input type="text" name="email_telefone" id="email_telefone" pattern="^\w+([.-]?\w+)@\w+([.-]?\w+)(\.\w{2,3})+$|\d{10,11}" placeholder="Número de celular ou email" required/>
 		<input type="password" name="senha" minlength="8" placeholder="Senha" required/>
 		<button type="submit"><b>Entrar</b></button>
         <div style="margin-top: 10px;"></div>
